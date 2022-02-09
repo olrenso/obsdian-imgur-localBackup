@@ -6,7 +6,7 @@ import requests
 
 path = "E:\Testing\ObsidianLocalBackup\Vault" #! Vault absolute directory
 attachmentsDirectory = "attachments" #! Relative attachements direcory in the vault
-regexImgurLink = 'https:\/\/i.imgur.com\/...+\.[a-zA-Z]{3}'
+regexImgurLink = 'https:\/\/i.imgur.com\/[A-Za-z0-9]+.[A-Za-z0-9]{3}'
 # regexImageLink = '!\[.*?\]\(https:\/\/i.imgur.com\/...+.[a-zA-Z]{3}\)'
 list_of_files = []
 
